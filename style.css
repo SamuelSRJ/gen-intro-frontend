@@ -93,24 +93,40 @@ div#titulo {
   margin-top: 1.5rem;
 }
 
+.tras {
+  border: 2px dashed var(--titlecolor);
+  padding: 0;
+  margin: 0;
+}
+
+.frente {
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+
+.frente_reverse {
+  margin-top: 15px;
+  position: relative;
+  right: 15px;
+  top: 15px;
+}
+
 #img_profile {
   width: 200px;
-  border-radius: 50%;
-  padding: 5px;
-  border: 2px dashed var(--fontcolor);
 }
 
 #video {
   flex-direction: column;
   margin: 2rem auto;
-  width: 90%;
+  width: 90vw;
 }
 
-#video iframe{
-  border: 2px dashed var(--fontcolor);
+#youtube{
+  border: 2px solid var(--fontcolor);
   margin-top: 2rem;
   aspect-ratio: 16/9;
-  max-width: 750px;
+  width: 50vw;
 }
 
 #footer {
@@ -186,7 +202,7 @@ footer marquee {
 
 #contact {
   flex-direction: row;
-  gap: 4rem;
+  gap: 2rem;
   margin: 5rem 0;
 }
 
@@ -267,12 +283,12 @@ form button:hover {
     margin-top: 1.5rem;
   }
 
-  #img_profile {
+  /* #img_profile {
     width: 200px;
     border-radius: 15%;
     padding: 5px;
     border: 2px dashed var(--fontcolor);
-  }
+  } */
   #logo {
     font-size: 1.4rem;
     font-weight: 700;
