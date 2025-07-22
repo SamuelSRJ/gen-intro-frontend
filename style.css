@@ -95,11 +95,20 @@ div#titulo {
 
 .tras {
   border: 2px dashed var(--titlecolor);
+  padding: 0;
+  margin: 0;
 }
 
 .frente {
   position: relative;
   left: 15px;
+  top: 15px;
+}
+
+.frente_reverse {
+  margin-top: 15px;
+  position: relative;
+  right: 15px;
   top: 15px;
 }
 
@@ -114,11 +123,10 @@ div#titulo {
 }
 
 #youtube{
-  border: 2px dashed var(--fontcolor);
+  border: 2px solid var(--fontcolor);
   margin-top: 2rem;
   aspect-ratio: 16/9;
-  max-width: 750px;
-
+  width: 50vw;
 }
 
 #footer {
@@ -194,7 +202,7 @@ footer marquee {
 
 #contact {
   flex-direction: row;
-  gap: 4rem;
+  gap: 2rem;
   margin: 5rem 0;
 }
 
