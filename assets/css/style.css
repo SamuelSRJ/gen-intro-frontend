@@ -237,10 +237,14 @@ textarea {
 }
 
 form span {
-  margin: 0 0 0.5rem 0.75rem;
-  font-size: 0.75rem;
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
   line-height: 1rem;
-  color: red;
+  color: #ffffff;
+  font-weight: 700;
+  background-color: red;
+  /* border: 2px solid #ffffff; */
+  padding-left: 1rem;
 }
 
 form button {
